@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap'); 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    gap: 15px;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.header-left img:first-child{
+    width: 30px;
+    height: 20px;
+}
+.header-left img:last-child{
+    width: 80px;
+    height: 20px;
+}
+.header-left{
+    display: flex;
+    width: 100px;
+    height: 60px;
+}
+.header-1 ul {
+    display: flex;
+    gap: 30px;
+}
+.header-right button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(13, 201, 201);
+    color: rgb(13, 201, 201);
+    background-color: white;
+}
+p{
+    text-decoration: none;
+    color: black;
+}
+h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section{
+    width: 1800px;
+    height: 648px;
+    background-image: url(https://cafefcdn.com/203337114487263232/2023/4/27/what-does-a-coder-do-2022-career-guide-1-1682580520079-16825805205492036415342.jpg) ;
+   background-color: white;
+   
+}
+.pen{
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-shadow: 10px;
+}
+.section-left   {
+    text-align: center;
+    font-weight: 1200;
+    font-size: 50px;
+    position: absolute ;
+    margin-top: -500px;
+    margin-left: 150px;
+    color: azure;
+    
+}
+.section-right img{
+    width:  450px;
+    height: 648px;
+    padding: 0px;  
+    margin: -40px 1150px; 
+}
+.download {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(43, 182, 252);
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+   
+}
+.under_header{
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    align-items: center;
+    
+}
+
+.item2{
+    font-size: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: blue;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+
+.date{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 500px;
+    height: 200px;
+    flex-direction: column;
+    position: relative;
+    right: 100px;
+
+}
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px;
+	background-color: darkblue;
+    margin-top: 40px;
+    gap: 130px;
+}
+
+.column {
+	gap: 10px;
+	margin-right: 20px;
+    list-style: none;
+}
+
+.column h2 {
+    text-transform: uppercase;
+    color: azure;
+}
+
+.column h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: azure;
+}
+.column li {
+    margin-bottom: 15px;
+    color: grey;
+}
+.h ul li {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: inline; 
+    margin-left: 5px;
+}
+
+.h ul p {
+    margin-left: 10px;
+    color: grey;
+    display: flex;
+}
+.h{
+    width: 100%;
+    height: 40px;
+    background-color: darkblue;
+}
+
+.column {
+    gap: 50px;
+}
